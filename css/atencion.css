@@ -1,0 +1,41 @@
+.atencion {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 15px;
+
+
+}
+.atencion h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #333232;
+
+}
+
+.atencion p{
+    font-size: 15px;
+    width: 300px;
+}
+.atencion__img {
+    display: none;
+}
+.atencion a{
+    color: blue;
+}
+
+@media (max-width: 1350px) and (min-width: 1080px) {
+    .atencion__img {
+        display: block;
+        padding-left: 600px;
+    }
+    .atencion__img img{
+        width: 540px;
+        height: 696px;
+        position: absolute;
+        top: 3929px;
+    }
+    .atencion {
+        height: 100vh;
+    }
+}
+

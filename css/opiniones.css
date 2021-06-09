@@ -1,0 +1,58 @@
+.opiniones-title {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: #333232;
+}
+
+.grid__opiniones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.opiniones img{
+    width: 43px;
+    height: 43px;
+    transform: translate(87px, -24px);
+    justify-content: center;
+    display: flex;
+    border-radius: 35px;
+    
+}
+
+.opiniones {
+    background: #8ea8ff;
+    margin: 5px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.opiniones__nombre {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.opiniones__lugar {
+    padding-bottom: 20px;
+}
+
+.opiniones__comentario{
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+@media (max-width: 1350px) and (min-width: 920px){
+    .grid__opiniones {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .opiniones img{
+        transform: translate(123px, -24px);
+    }
+}

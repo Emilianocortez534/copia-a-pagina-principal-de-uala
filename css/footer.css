@@ -1,0 +1,92 @@
+.final__wave{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+    background: lightsteelblue;
+}
+
+footer .wave__footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../image/wave.png);
+    background-size: 1000px 100px;
+    transform: rotate(180deg);
+}
+
+.container__footer__all{ 
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.container__body{
+    justify-content: space-between;
+
+}
+
+.logo__footer {
+    padding-top: 100px;
+    margin-left: 40px;
+}
+
+.redes-sociales {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.fab{
+    color: #999;
+}
+
+.dispositivos-moviles {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+
+.leyes-condiciones{
+    font-size: 15px;
+}
+
+.leyes{
+    padding-bottom: 23px;
+}
+.leyes a{
+    color: rgb(78, 76, 76);
+}
+
+.derechos{
+    width: 300px;
+    font-size: 15px;
+}
+
+.fa-instagram:hover{
+    color: orange;
+}
+
+.fa-facebook-square:hover{
+    color: blue;
+}
+
+.fa-twitter:hover{
+    color: aqua;
+}
+
+.fa-linkedin:hover{
+    color: darkblue;
+}
+
+.fa-youtube:hover{
+    color: red;
+}
+
+
+@media (max-width: 1350px) and (min-width:1060px) {
+    .container__body{
+        display: flex;
+        padding-top: 100px;
+    }
+}

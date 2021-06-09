@@ -1,0 +1,145 @@
+ .sumarte {
+    position: relative;
+    width: 100%;
+    height: 220vh;
+    overflow: hidden;
+    background: lightsteelblue;
+}
+
+section .wave{
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../image/wave.png);
+    background-size: 1000px 100px;
+    transform: rotate(180deg);
+}
+
+section .wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../image/wave.png);
+    background-size: 1000px 100px;
+}
+
+.titulo {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 150px;
+    position: absolute;
+    font-size: 30px;
+    color: #333232;
+}
+
+.grid__pasos {
+    display: grid;
+    grid-column: 1fr;
+    gap: 70px;
+    padding-top: 300px;
+}
+.pasos{
+    display: flex;
+    margin-left: 25px;
+}
+
+.texto__pasos {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    width: 250px;
+    color: #575555;
+}
+
+.texto1::before {
+    content: "1. ";
+    color: blue;
+}
+
+
+
+.texto2::before{
+    content: "2. ";
+    color: blue;
+}
+
+.texto3::before{
+    content: "3. ";
+    color: blue;
+}
+
+.texto4::before {
+    content: "4. ";
+    color: blue;
+}
+
+
+.cargaSaldo{
+    position: absolute;
+    padding: 30px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+
+.transferencia__titulo{
+    font-size: 20px;
+    color: blue;
+}
+
+.transferencias {
+    display: flex;
+    padding-top: 30px;
+}
+
+.transferencia__metodo{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 60px;
+    font-size: 12px;
+    color: #575555;
+}
+
+.metodosDePago{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.metodosDePago img{
+    width: 200px;
+}
+
+
+@media (max-width: 1350px) and (min-width: 1080px){
+    .grid__pasos{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .texto__pasos{
+        margin-left: -99px;
+        margin-top: 126px;
+    }
+    .imagen__pasos{
+        margin-left: 20px;
+    }
+
+    .trans__contain{
+        display: flex;
+    }
+    .metodosDePago {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-top: 32px;
+        padding-left: 47px;
+    }
+    .sumarte{
+        height: 140vh;
+    }
+}
